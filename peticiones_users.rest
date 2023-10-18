@@ -1,0 +1,19 @@
+
+POST http://localhost:3000/api/users/register
+Content-Type: application/json
+
+{
+    "name":"carevergoglio",
+    "email":"carevergoglio@gmail.com",
+    "rol_id":1,
+    "password":"12345"
+}
+
+###
+POST http://localhost:3000/api/users/login
+Content-Type: application/json
+
+{
+    "email":"carevergoglio@gmail.com",
+    "password":"12345"
+}

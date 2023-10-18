@@ -1,0 +1,24 @@
+GET http://localhost:3000/api/roles
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjUyZWVmYzg2ZjdhZmQ2MWE3ODUxZjkxIiwidXNlcl9yb2wiOiIxIiwidXNlcl9uYW1lIjoiY2FyZXZlcmdvZ2xpbyIsImlhdCI6MTY5NzU3NDg3Mn0.OEXq4hdqjf31AUhyXNWIt-s2Tf2ZN1FFSKKWyQwnfeQ
+
+####
+GET http://localhost:3000/api/roles/652eef4cc7bf85b5643d4c0c
+
+###
+POST http://localhost:3000/api/roles
+Content-Type: application/json
+
+{
+    "name":"carevergoglio"
+}
+
+###
+PUT http://localhost:3000/api/roles/652eef4cc7bf85b5643d4c0c
+Content-Type: application/json
+
+{
+    "name":"Epa pitufo"
+}
+
+###
+DELETE http://localhost:3000/api/roles/652eee69c7bf85b5643d4c03
